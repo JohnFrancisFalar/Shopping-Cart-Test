@@ -1,0 +1,27 @@
+body{
+    background-color: #d8e6ed;
+    background-image: url('added-successfully.gif');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 60% 1%;
+}
+.desc{
+    width: 250px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+button {
+    font-size: large;
+    background-color: #B0D4F1;
+    padding: 10px 10px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}

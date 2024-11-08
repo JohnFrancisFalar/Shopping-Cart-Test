@@ -1,0 +1,47 @@
+.Main_Page_Menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #B0D4F1;
+}
+
+.Links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.Links a {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 20px;
+}
+body{
+    background-color: #d8e6ed;
+    background-image: url('uploads/christmas-pokemon.gif');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 90% 400%;
+}
+.Desc{
+    display: flex;
+    font-size: 100px;
+    padding: 0 20px;
+}
+
+button {
+    font-size: large;
+    background-color: #B0D4F1;
+    padding: 10px 10px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}

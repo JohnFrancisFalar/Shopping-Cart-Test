@@ -1,0 +1,54 @@
+
+.display_item{
+width: 300px;
+margin: 0 auto;
+text-align: center;
+}
+body{
+    background-color: #C0C78C;
+}
+table {
+    
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    
+    padding: 10px;
+    border: 1px solid #fcf8f8;
+    border-color: #705C53;
+}
+
+th {
+    background-color: #A6B37D;
+    text-align: left; 
+}
+
+td {
+    background-color: #FEFAE0;
+    text-align: center; 
+}
+.Links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+button {
+    font-size: large;
+    background-color: #EAE4DD;
+    padding: 10px 10px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    border: none;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+

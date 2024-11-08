@@ -1,0 +1,80 @@
+body{
+    background-color: #B0D4F1;
+}
+.product_form{
+    position: absolute;
+    top: 20%;
+    left: 39%;
+    border-radius: 20px;
+    background-color: white;
+    width: 300px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1px 10px 10px 40px;
+}
+.logout{
+    font-size: large;
+    background-color: #9eb5c7;
+    padding: 10px 10px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    border: none;
+}
+button {
+    font-size: large;
+    background-color: #9eb5c7;
+    padding: 10px 10px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.product_name{
+    padding: 7px 60px 7px 5px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.product_name:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition: all 0.3s ease;
+}
+.product_desc{
+    padding: 7px 60px 7px 5px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.product_desc:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition: all 0.3s ease;
+}
+.product_price{
+    padding: 7px 60px 7px 5px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.product_quantity{
+    padding: 7px 60px 7px 5px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.submit_button{
+    background-color: rgb(127, 208, 240);
+    padding: 10px 10px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    border: none;
+}
+.submit_button:hover{
+    background-color: rgb(114, 99, 99);
+    color: black;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}

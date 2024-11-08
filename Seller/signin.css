@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    padding: 20px;
+}
+body{
+    text-align: center;
+    
+}
+.login_email{
+    padding: 7px 60px 7px 5px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.login_pass{
+    padding: 7px 60px 7px 5px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.login_submit{
+    text-align: center;
+    color: white;
+    background-color: rgb(94, 94, 247);
+    padding: 7px 75px 7px 75px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.log_button{
+    border: 0;
+    color:rgb(92, 159, 185);
+    cursor:pointer;
+    text-decoration: none;
+}
+form{
+    border-radius: 20px;
+    background-color: white;
+    width: 300px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 10px 50px 10px;
+}
+body{
+    background-color: skyblue;
+}
+.Login_link{
+    text-decoration: none;
+}
